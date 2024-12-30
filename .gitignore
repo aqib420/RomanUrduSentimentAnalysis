@@ -1,6 +1,33 @@
+# Ignore data and models folders
 data/
 models/
+
+# Ignore specific file types
+*.safetensors
 *.log
+*.arrow
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
-*.arrow
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large files (add other extensions if needed)
+*.h5
+*.pkl
+*.pt
+*.joblib
+*.tar.gz
+*.zip
